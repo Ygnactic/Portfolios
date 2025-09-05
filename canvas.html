@@ -1,0 +1,187 @@
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FN7LEVWXD"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-7FN7LEVWXD');
+        </script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/images/ico.ico" type="image/x-icon">
+        <link rel="stylesheet" href="storage/css/index6.css">
+        <title>Home | Seraph</title>
+
+        <meta name="description" content="seraph; an open source unblocked games website hosting 250+ games with downloadable support, a clean and centralised user interface and no iframe embedding">
+        <meta property="og:site_name" content="seraph">
+        <meta property="og:title" content="seraph">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="seraph; an open source unblocked games website hosting 250+ games with downloadable support, a clean and centralised user interface and no iframe embedding">
+  </head>
+  <body>
+    
+      <div class="cursor"></div>
+      <div class="content-side">
+          <h1 class="typewriter"><span id="cursor"></span></h1>
+          <h2>version 8.1 / release build</h2>
+          <br>
+
+          <div class="button-container">
+              <div class="gamesbutton" onclick="window.location='games/index.html';">
+                  <img src="images/other/controller.png">
+                  <div class="button-text">
+                      <p>games</p>
+                  </div>
+              </div>
+          
+              <div class="gamesbutton" onclick="window.location='apps/index.html';">
+                  <a href="apps/index.html"><img src="images/other/apps.png"></a>
+                  <div class="button-text">
+                      <p>apps</p>
+                  </div>
+              </div>
+          </div>
+          
+
+          <br>
+
+          <p class="linkp"><a href="settings.html">settings</a> • <a href="updatelog.html">updates</a> • <a href="host.html">rehost</a></p>
+          <p class="linkp"><a href="https://discord.gg/ZyZDmx3zuQ" target="_blank">discord server</a> • <a href="https://github.com/a456pur/seraph" target="_blank">github</a> • <a href="data.html">data policy</a></p>
+          
+          <br>
+          <a href="https://github.com/a456pur" target="_blank" style="text-decoration: none;">˗ˏˋ❀ website created & developed by @a456pur ❀ ´ˎ˗</a>
+
+              
+      </div>
+
+      <script>
+        const text = "seraph";
+        const typingDelay = 500; 
+        const initialDelay = 100; 
+        const cursor = document.getElementById("cursor");
+        const h1 = document.querySelector(".typewriter");
+
+        function type() {
+            setTimeout(() => {
+                for (let i = 0; i < text.length; i++) {
+                setTimeout(() => {
+                    h1.textContent += text[i];
+                    if (i === text.length - 1) {
+                    cursor.style.display = "none"; 
+                    }
+                }, i * typingDelay);
+                }
+            }, initialDelay);
+        }
+
+        type();
+      </script>
+
+      <script src="storage/js/cursor.js"></script>
+      <script src="storage/js/cloak.js"></script>
+      <script src="storage/js/theme.js"></script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Zdravo, prijavite se koristeći lozinku</h1>
+  <p>Zakon u vama dobija web stranicu.</p>
+
+  <script><!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Dashboard</title>
+  <link rel="stylesheet" href="storage/css/index6.css"> <!-- Seraph theme -->
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    h1, p {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      animation-delay: 0.3s;
+    }
+
+    p {
+      font-size: 1.2rem;
+      animation-delay: 0.6s;
+      margin-bottom: 30px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #444;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      animation: fadeInUp 1s ease forwards;
+      animation-delay: 0.9s;
+    }
+
+    button:hover {
+      background-color: #666;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Zdravo, prijavite se koristeći lozinku</h1>
+  <p>Zakon u vama dobija web stranicu.</p>
+  <button onclick="window.location.href='index.html'">← Nazad na Seraph</button>
+
+  <script>
+    document.addEventListener("keydown", function(e) {
+      if (e.ctrlKey && e.shiftKey && e.key === "L") {
+        window.location.href = "canvas.html";
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+    document.addEventListener("keydown", function(e) {
+      if (e.ctrlKey && e.shiftKey && e.key === "L") {
+        window.location.href = "games.html";
+      }
+    });
+  </script>
+</body>
+</html>
+
+
